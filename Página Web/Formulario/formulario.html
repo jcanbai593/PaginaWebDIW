@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web creada para el contenido de la asignatura Desarrollo de Aplicaciones Web"/>
+    <meta name="keywords" content="formulario, listas, tablas, color, tipografias, accesibilidad"/>
+    <meta name="author" content="José Luis Cano Baides"/>
+    <meta name="copyright" content="José Luis Cano Baides"/>
+    <title>Página de prueba</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+	<link rel="stylesheet" type="text/css" href="../fontello.css">
+</head>
+<body>
+	<header id = "header">
+        <nav class = "menu">
+        
+            <ul>
+                <li id="inicio"><a class="icon-casa" href="../index.html">Diseño de Interfaces Web</a></li>
+                <li><a id = "ahora" class = "icon-formulario" href="../Formulario/formulario.html">Formulario</a></li>
+                <li><a class = "icon-color" href="../Color/color.html">Color</a></li>
+                <li><a href="../Position/position.html">Position</a></li>
+                <li><a href="#">Accesibilidad</a>
+                    <ul>
+                        <li><a href="../accesibilidad/accesibilidad.html">La WCAG</a></li>
+                        <li><a href="../accesibilidad/accesibilidad2.html">Técnicas</a></li>
+                        <li><a href="../accesibilidad/accesibilidad3.html">Prioridades, puntos y niveles</a></li>
+                        <li><a href="../accesibilidad/accesibilidad4.html">Herramientas</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </nav>
+    </header>
+    <div class = "imagen">
+
+    </div>
+
+    <div class = "color">
+       
+        <h2>Formulario</h2>
+
+    </div>
+
+    <div class = "contenedor">
+        <div class= "main">
+		
+			<section class="formulario">
+				<article>
+					<center><h1>Introduce tus datos</h1></center>
+					<form action="formulario" method="POST" class = "datos">
+						
+						<label for = "nombre"> Nombre: </label>
+						<input class = "inputrojo" type = "text" id ="nombre" name = "nombre " size = "60" maxlength="60" required><br><br>
+						
+						<label for = "apellidos"> Apellidos: </label>
+						<input type = "text" id ="apellidos" name = "apellidos" size = "60" maxlength="60"><br><br>
+						
+						<label for = "curso"> Curso: </label>
+						<input type = "text" id ="curso" name = " curso" size = "60" maxlength="60"><br><br>
+				
+						<label for = "email"> Email: </label>
+						<input type = "email" id ="email" name = "email" placeholder = "Escribe el correo de (g.educaand.es)" size = "60" maxlength="60" aria-required = "true" ></input><br><br>
+						
+						<label for = "telefono">Teléfono:</label>
+						<input type = "tel" id = "telefono" name = "telefono" size = "60" maxlength="60"><br><br>
+				
+						<label for="fecha">Fecha de nacimiento:</label>
+						<input type="date" id="fecha" name="fecha" ><br><br>
+				
+						<label for = "sexo">Sexo:
+						<input type="radio" name="sexo" value="masc"> Maculino
+						<input type="radio" name="sexo" value="fem"> Femenino <br>
+						</label><br>
+						
+						<label for = "Estudios">Nivel máximo de estudios realizados:</label>
+						<select name="Estudios">
+						<option value="Sin">Sin estudios</option>
+						<option value="ESO">ESO</option>
+						<option value="Bachillerato">Bachillerato</option>
+						<option value="GradoMS">Grado medio o superior</option>
+						<option value="Univerdidad">Estudios universitarios</option>
+						</select><br><br>
+						
+						<label for = "comentarios">¿Algo más que deba saber?</label><br>
+						<textarea name = "comentarios" rows = "10" cols="60"></textarea><br>
+						<br>
+						<input type="checkbox" name="lista">Acepto el uso de mis datos por parte del centro educativo.<br><br>
+						
+						
+						<form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+						<input type="file" name="imagen1" />
+						<input type="submit" name="subir-imagen" value="Subir foto" ><br>
+						
+				
+						
+					
+						<button class ="boton1"type = "submit" id="boton1"  aria-describedby="Enviar">Enviar</button>
+						<button type = "reset" id="boton2" aria-describedby="Borrar">Borrar</button>
+						
+						
+						
+					</form>
+				</article>
+			</section>
+		</div>		
+        
+        
+    </div>
+
+</body>
+<footer>
+    <p>© Octubre 2021.Todos los derechos reservados</p>
+</footer>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web creada para el contenido de la asignatura Desarrollo de Aplicaciones Web"/>
+    <meta name="keywords" content="formulario, listas, tablas, color, tipografias, accesibilidad"/>
+    <meta name="author" content="José Luis Cano Baides"/>
+    <meta name="copyright" content="José Luis Cano Baides"/>
+    <title>Página de prueba</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="stylesheet" type="text/css" href="../fontello.css">
+    
+</head>
+<body>
+    <header id = "header">
+        <nav class = "menu">
+        
+            <ul>
+                <li id="inicio"><a class="icon-casa" href="../index.html">Diseño de Interfaces Web</a></li>
+                <li><a class = "icon-formulario" href="../Formulario/formulario.html">Formulario</a></li>
+                <li><a class = "icon-color" href="../Color/color.html">Color</a></li>
+                <li><a href="../Position/position.html">Position</a></li>
+                <li><a id = "ahora" href="#">Accesibilidad</a>
+                    <ul>
+                        <li><a href="./accesibilidad.html">La WCAG</a></li>
+                        <li><a href="./accesibilidad2.html">Técnicas</a></li>
+                        <li><a href="./accesibilidad3.html">Prioridades, puntos y niveles</a></li>
+                        <li><a href="./accesibilidad4.html">Herramientas</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </nav>
+        <nav class= "menuAparece">
+            <ul>
+                
+                <li id = "primera"><a href="#T">Técnicas Generales</a></li>
+                <li><a href="#T2">Técnicas CSS</a></li>
+                <li><a href="#T3">Técnicas Aria</a></li>
+                <li><a href="#T4">Errores comunes</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class = "imagen">
+        </div>
+        <a name="T"> </a>
+        <div class = "color">
+        
+            <h2>Accesibilidad</h2>
+
+        </div>
+        
+        <div class = "contenedor">
+            <div class= "main">
+            
+                <section>
+                        
+                    <article>
+                        <h1>5.2.3 Técnicas para satisfacer los requisitos definidos en las WCAG</h1>
+                        <h2>Técnicas Generales</h2>
+                        <ol>
+                            <li>Añadir alternativas de texto a elementos multimedia.</li>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XGoJNgvAkcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <li>Permitir que el contenido pueda ser pausado.</li>
+                            <li>Ordenar el contenido de forma coherente.</li>
+                            <li>Añadir títulos descriptivos.</li>
+                            <li>Expandir abreviaturas.</li>
+                            <img src="../Fotos/abbr.PNG">
+                            <li>Eliminar parpadeos y destellos.</li>
+                            <li>Marcar la estructura de las tablas de datos(thead, tbody y tfoot).</li>
+                            <img src="../Fotos/gen8.PNG">
+                            <li>Proporcionar metadatos que den significado al documento.</li>
+                            <img src="../Fotos/gen9.PNG" width = "800px">
+                            <li>Utilizar atributo for del elemento label</li>
+                            <img src="../Fotos/gen10.PNG">
+                            <a name="T2"> </a>
+                        </ol>
+                    </article>
+                    <article>
+                        <h2>Técnicas CSS</h2>
+                        <ol>
+                            <li>Utilizar CSS para controlar el espaciado (margin y padding)</li>
+                            <img src="../Fotos/CSS1.PNG">
+                            <li>No utilizar unidades relativas.</li>
+                            <img src="../Fotos/em.PNG">
+                            <li>Modificar los elementos al recibir el foco con el psudocase: focus.</li>
+                            <img src="../Fotos/CSS3.PNG">
+                            <li>Utilizar valores porcentuales.</li>
+                            <li>Usar ojas de estilo vinculadas</li>
+                            <img src="../Fotos/CSS5.PNG">
+                            <li>Utilizar propiedades como font-size.</li>
+                            <img src="../Fotos/CSS6.PNG">
+                            <li>No utilizar elementos blink.</li>
+                            <a name="T3"> </a>
+                            <li>Usar números en vez de nombres para especificar colores.</li>
+                            <img src="../Fotos/CSS8.PNG">
+                            <li>Especifique un tipo de letra genérico por defecto.</li>
+                            <img src="../Fotos/CSS9.PNG">
+                            <li>Asegurarse de usar colores con alto contraste entre el fondo y el primer plano.</li>
+                        </ol>
+                    </article>
+                    <article>
+                        <h2>Técnicas Aria</h2>
+                        <ol>
+                            <li>Utilizar el atributo aria-label para etiquetar objetos.</li>
+                            <img src="../Fotos/aria1.PNG" width = "800px" height="30px">
+                            <li>Utilizar el atributo aria-describedby en los controles de interfaz de usuario.</li>
+                            <img src="../Fotos/aria2.PNG">
+                            <li>Utilizar el atributo aria-required para campos requeridos.</li>
+                            <img src="../Fotos/aria3.PNG">
+                            <li>Utilizar el atributo aria-role para indicar el rol de un control y agrupar controles en grupos.</li>
+                            <li>Utilizar las aria landmarks para poder establecer regiones de una página.</li>
+                            <img src="../Fotos/aria5.PNG">
+                        </ol>
+                    </article>
+                    <a name="T4"> </a>
+                    <article>
+                        <h2>Errores comunes</h2>
+                        <ol>
+                            <li>No utilizar texto alternativos mediante alt.</li>
+                            <li>Usar textos alternativos muy largos.</li>
+                            <li>Publicar videos visuales sin alternativa de texto.</li>
+                            <li>Usar únicamente color para establecer jerarquías.</li>
+                            <li>Usar tamaño de los textos en medidas absolutas.</li>
+                            <li>No se indica el lenguaje de la página mediante el atributo lang.</li>
+                            <li>Entradas sin equiqueta label asociada.</li>
+                            <li>Imágenes decorativas no marcadas como tal.</li>
+                            <li>No informar al usuario de errores en la introducción de datos de entrada (aria-describedby).</li>
+                            <li>Utilizar links vacíos, sin atributo alt.</li>
+                        </ol>
+                    
+                    </article>
+                   
+                    
+                </section>
+                
+            </div>
+            <div class="numeros">
+                <span><a href="accesibilidad.html">1</a></span>
+                <span id = "actual"><a href="accesibilidad2.html">2</a></span>
+                <span><a href="accesibilidad3.html">3</a></span>
+                <span><a href="accesibilidad4.html">4</a></span>
+                <span id = "siguiente"><a href="accesibilidad3.html">Siguiente</a></span>
+            </div>
+    
+    </div>
+    </main> 
+    
+</body>
+<footer>
+    <p>© Octubre 2021.Todos los derechos reservados</p>
+</footer>
+</html>

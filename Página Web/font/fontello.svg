@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="color" unicode="&#xe800;" d="M0-41q0 4 1 8t1 8 1 8 1 6l0 2 74 267q10 31 31 53l325 324 0 2 2 2 150 152q60 59 146 59 106 0 186-80 74-74 81-171t-58-161l-476-481q-24-23-55-31l-263-70-3-1q-3-1-7-2t-9-1-10-1-9-1q-45 0-77 32t-32 77z m63 0q0-19 13-33t33-14q6 0 22 4l115 32q4 58-43 105-45 45-105 43l-32-119q-3-14-3-18z m44 168q67-2 118-52t52-120l116 30 11 6q41 47 34 115t-61 121q-51 49-115 59t-112-24q-7-10-11-21z m131 225q45-2 90-20l295 295q-88 22-144-33z m119-35q38-20 65-45 21-22 41-55l297 299q-16 31-39 55-30 29-67 45z m122-129q17-41 21-82l0-24 242 245 0 2q61 60 31 156z m101 508q106 0 186-80 70-73 78-166l0-22 52 55q45 45 41 111-5 74-62 131-63 62-143 62-60 0-101-41z" horiz-adv-x="1000" />
+
+<glyph glyph-name="casa" unicode="&#xe840;" d="M475 700l-475-275 100 0 0-400c0-25 22-50 50-50l150 0 0 250c0 28 22 50 50 50l350 0c28 0 49-22 50-50l0-250 150 0c28 0 50 22 50 50l0 400 100 0-475 275c-21 12-42 25-50 25-8 0-28-12-50-25z m-125-475l0-50 350 0 0 50z m0-100l0-50 350 0 0 50z m0-100l0-50 350 0 0 50z" horiz-adv-x="1050" />
+
+<glyph glyph-name="formulario" unicode="&#xf298;" d="M287 342v-72h-140v72h140z m0 142v-71h-140v71h140z m423-285v-72h-190v72h190z m0 143v-72h-375v72h375z m0 142v-71h-375v71h375z m76-480v692q0 4-4 8t-7 3h-18l-211-143-117 96-118-96-211 143h-17q-5 0-8-3t-4-8v-692q0-4 4-8t8-3h692q4 0 7 3t4 8z m-477 619l103 84h-227z m240 0l123 84h-227z m308 73v-692q0-35-24-59t-58-24h-692q-35 0-59 24t-24 59v692q0 35 24 59t59 24h692q34 0 58-24t24-59z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

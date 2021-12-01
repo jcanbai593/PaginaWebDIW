@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web creada para el contenido de la asignatura Desarrollo de Aplicaciones Web"/>
+    <meta name="keywords" content="formulario, listas, tablas, color, tipografias, accesibilidad"/>
+    <meta name="author" content="José Luis Cano Baides"/>
+    <meta name="copyright" content="José Luis Cano Baides"/>
+    <title>Página de prueba</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="stylesheet" type="text/css" href="../fontello.css">
+    
+</head>
+<body>
+    <header id = "header">
+        <nav class = "menu">
+        
+            <ul>
+                <li id="inicio"><a class="icon-casa" href="../index.html">Diseño de Interfaces Web</a></li>
+                <li><a class = "icon-formulario" href="../Formulario/formulario.html">Formulario</a></li>
+                <li><a class = "icon-color" href="../Color/color.html">Color</a></li>
+                <li><a href="../Position/position.html">Position</a></li>
+                <li><a id = "ahora" href="#">Accesibilidad</a>
+                    <ul>
+                        <li><a href="./accesibilidad.html">La WCAG</a></li>
+                        <li><a href="./accesibilidad2.html">Técnicas</a></li>
+                        <li><a href="./accesibilidad3.html">Prioridades, puntos y niveles</a></li>
+                        <li><a href="./accesibilidad4.html">Herramientas</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </nav>
+        <nav class= "menuAparece">
+            <ul>
+                
+                <li id = "primera"><a href="#T">La WCAG</a></li>
+                <li><a href="#T2">Pautas</a></li>
+                <li><a href="#T3">Principios generales</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class = "imagen" title="Imagen decorativa" >
+        </div>
+        <a name="T"> </a>
+        <div class = "color">
+        
+            <h2>Accesibilidad</h2>
+
+        </div>
+        
+        <div class = "contenedor">
+            <div class= "main" role="main">
+            
+                <section>
+                    
+                    <article>
+                        <h1>5.2 La <abbr title="Web Content Accessibility Guidelines">WCAG</abbr></h1>
+                        <p>Es una iniciativa liderada por el W3C que en colaboración con otras entidades pretende desarrollar un estándar que cubra las necesidades de los individuos a nivel mundial.
+                            Mantiene los estándares de los lenguajes de la web y establece las pautas para crear webs accesibles, esta guía está orientada para:
+                        </p>
+                        <ul>
+                            <li>Desarrolladores y diseñadores web</li>
+                            <li>Fabricantes de herramientas de desarrollo</li>
+                            <a name="T2"> </a>
+                            <li>Desarrolladores de herramientas de evaluación de accesibilidad</li>
+                            <li>Otros que puedan necesitar un estándar</li>
+                        </ul>
+                    
+                    </article>
+                    <article>
+                        <h1>5.2.1 Pautas de Accesibilidad al Contenido en la Web (<abbr title="Web Content Accessibility Guidelines">WCAG)</abbr></h1>
+                        <p>Los documentos denominados Pautas de Accesibilidad al Contenido en la Web (<abbr title="Web Content Accessibility Guidelines">WCAG)</abbr> explican cómo hacer que el contenido Web sea accesible para personas con discapacidad.
+                            Estas pautas hacen referencia a unos principios generales que pueden desglosarse en varios ítems. Y cada uno de esos principios tiene distintas técnicas para cumplir con los criterios de accesibilidad. Esta guía abarca:
+                            </p>
+                        <dl>
+                            <dt>Principios generales de diseño accesible:</dt>
+                                <dd>Perceptible, operable, entendible y robusto.</dd>
+                            <dt>Directrices:</dt>
+                                <dd>Cada principio tiene guías más concretas, que forman un total de 12 guías.</dd>
+                            <dt>Criterios de éxito:</dt>
+                                <dd>A cada directriz se le establecen test para saber si se cumple con esos criterios a tres niveles.</dd>    
+                            <dt>Técnicas:</dt>
+                                <dd>Por cada uno de los criterios se aplican técnicas que nos permiten hacer una evaluación correcta.</dd>    
+                           
+                            <a name="T3"> </a>
+                          
+                        </dl> 
+                        
+                       <p><a = href="https://observatoriodelaaccesibilidad.es/wp-content/uploads/2020/06/Accesibilidad-web.pdf" alt ="Ir a la guía de Accesibilidad Web en español">Enlace para acceder a la guía de Accesibilidad Web en español</a></p> 
+                        
+                    </article>
+                   
+                    <article>
+                        <h1>5.2.2 Principios generales de diseño accesible</h1>
+                        
+                        <p>WCAG 2.0 y WCAG 2.1 son estándares técnicos estables y de referencia. Contienen 12-13 pautas que se agrupan en cuatro principios: perceptible, operable, inteligible y robusto. Cada pauta incluye criterios de conformidad, que se pueden comprobar y que se clasifican en tres niveles: A, AA y AAA.
+                            Cabe destacar que la versión WCAG 2.1 reemplazó a la WCAG 2.0 en junio de 2018 y que la WCAG 3.0 entrará en vigor en después de 2022, por lo que ahora es una versión informativa, no normativa.
+                            </p>
+                           
+                        <ol>
+                            <h3><li>Perceptible</h3>
+                                <ul>
+                                    <li>Proveer de alternativas de texto a todo lo que no sea legible.</li>
+                                    <li>Proveer de texto para contenido multimedia.</li>
+                                    <li>Crear el contenido para que sea presentable de diferentes formas, incluyendo tecnologías de asistencia.</li>
+                                    <li>Facilitar al usuario ver y oír el contenido.</li>
+                                </ul>
+                            </li>
+                            <h3><li>Operable</h3>
+                                <ul>
+                                    <li>Hacer toda la funcionalidad disponible desde el teclado.</li>
+                                    <li>Otorgar a los usuarios tiempo suficiente para leer y utilizar el contenido.</li>
+                                    <li>Utilizar contenido simple que no cree confusión.</li>
+                                    <li>Ayudar a los usuarios a encontrar el contenido que buscan.</li>
+                                </ul>
+                            </li>
+                            <h3><li>Inteligible</h3>
+                                <ul>
+                                    <li>Hacer el texto legible y entendible.</li>
+                                    <li>Hacer que el contenido aparezca y opere de distintas maneras.</li>
+                                    <li>Ayudar a los usuarios a evitar errores.</li>   
+                                </ul>
+                            </li>
+                            <h3><li>Robusto</h3>
+                                <ul>
+                                    <li>Maximizar la compatibilidad con las herramientas actuales y futuras.</li>
+                                </ul>
+                            </li>
+                        </ol> 
+                    </article>
+                    
+                </section>
+                
+            
+            </div>
+            <div class="numeros">
+                <span id = "actual"><a href="accesibilidad.html">1</a></span>
+                <span><a href="accesibilidad2.html">2</a></span>
+                <span><a href="accesibilidad3.html">3</a></span>
+                <span><a href="accesibilidad4.html">4</a></span>
+                <span id = "siguiente"><a href="accesibilidad2.html">Siguiente</a></span>
+            </div>
+   
+    </div>
+    </main> 
+    
+</body>
+<footer>
+    <p>© Octubre 2021.Todos los derechos reservados</p>
+</footer>
+</html>

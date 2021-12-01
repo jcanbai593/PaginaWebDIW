@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web creada para el contenido de la asignatura Desarrollo de Aplicaciones Web"/>
+    <meta name="keywords" content="formulario, listas, tablas, color, tipografias, accesibilidad"/>
+    <meta name="author" content="José Luis Cano Baides"/>
+    <meta name="copyright" content="José Luis Cano Baides"/>
+    <title>Página de prueba</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="stylesheet" type="text/css" href="../fontello.css">
+    
+</head>
+<body>
+    <header id = "header">
+        <nav class = "menu">
+        
+            <ul>
+                <li id="inicio"><a class="icon-casa" href="../index.html">Diseño de Interfaces Web</a></li>
+                <li><a class = "icon-formulario" href="../Formulario/formulario.html">Formulario</a></li>
+                <li><a class = "icon-color" href="../Color/color.html">Color</a></li>
+                <li><a id = "ahora" href="../Position/position.html">Position</a></li>
+                <li><a href="#">Accesibilidad</a>
+                    <ul>
+                        <li><a href="../accesibilidad/accesibilidad.html">La WCAG</a></li>
+                        <li><a href="../accesibilidad/accesibilidad2.html">Técnicas</a></li>
+                        <li><a href="../accesibilidad/accesibilidad3.html">Prioridades, puntos y niveles</a></li>
+                        <li><a href="../accesibilidad/accesibilidad4.html">Herramientas</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </nav>
+        <nav class= "menuAparece">
+            <ul>
+                
+                <li id = "primera"><a href="#T">Posicionamiento</a></li>
+                <li><a href="#T2">Propiedades</a></li>
+                <li><a href="#T3">Valores position</a></li>
+               
+                
+            </ul>
+        </div>
+    </header>
+    
+    <div class = "imagen">
+
+    </div>
+    <a name="T"> </a>
+    <div class = "color">
+       
+        <h2>Position</h2>
+
+    </div>
+    
+    <div class = "contenedor">
+        <div class= "main">
+           
+            <section>
+                
+                <article>
+                    <h1>Posicionamiento de cajas</h1>
+                    <dl>
+                        <dt>Espacio reservado:</dt>
+                            <dd> Espacio del elemento reservado por el navegador.</dd>
+                        <a name="T2"> </a>
+                        <dt>Flujo de renderizado:</dt>
+                            <dd>  Orden en el que van los elementos de izq a der y de arriba abajo, siendo el 0.0 la esquina superior izquierda.</dd>
+                        <dt>Elemento posicionado:</dt>
+                            <dd> El elemento posee un valor static por defecto.</dd>
+                        <dt>Stacking context:</dt>
+                            <dd>  Orden en el que se apilan las cajas dentro de un mismo contenedor</dd>
+                    </dl>
+                   
+                </article>
+                <article>
+                    <h1>Propiedades</h1>
+                    <dl>
+                        <dt>TOP:</dt>
+                            <dd>Se moverá desde la parte superior.</dd>
+                        <a name="T2"> </a>
+                        <dt>RIGHT:</dt>
+                            <dd> Se moverá desde la parte derecha.</dd>
+                        <dt>BOTTOM:</dt>
+                            <dd>  Se moverá desde la parte inferior.</dd>
+                        <dt>LEFT: </dt>
+                            <dd>Se moverá desde la parte izquierda.</dd>
+                        <dt>Z-INDEX: </dt>
+                            <dd> Se moverá en el eje z.</dd>
+                    </dl> 
+                    <h2>Nota</h2>
+                    <p>Las propiedades top y left tienen prioridad</p>
+                </article>
+                <article>
+                    <h1>Valores de position</h1>
+                    <dl>
+                        <dt>STATIC:</dt>
+                            <dd> Es el valor por defecto</dd>
+                        <a name="T3"> </a>
+                        <dt>RELATIVE:</dt>
+                            <dd> El elemento mantiene su posición, medidas y reserva su espacio.</dd>
+                        <dt>ABSOLUTE:</dt>
+                            <dd> EL elemento pierde sus medidas y su espacio, utilizará a su padre de referencia y si no tiene al html.</dd>
+                        <dt>FIXED: </dt>
+                            <dd>  El elemento pierde sus medidas y su espacio reservado, quedándose fijo en el navegador cuando hacemos scroll.</dd>
+                    </dl> 
+                </article>
+                
+            </section>
+            
+            
+                
+
+               
+           
+           
+           
+        </div>
+        
+    </div>
+
+</body>
+<footer>
+    <p>© Octubre 2021.Todos los derechos reservados</p>
+</footer>
+</html>

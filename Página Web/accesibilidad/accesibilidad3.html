@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web creada para el contenido de la asignatura Desarrollo de Aplicaciones Web"/>
+    <meta name="keywords" content="formulario, listas, tablas, color, tipografias, accesibilidad"/>
+    <meta name="author" content="José Luis Cano Baides"/>
+    <meta name="copyright" content="José Luis Cano Baides"/>
+    <title>Página de prueba</title>
+    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="stylesheet" type="text/css" href="../fontello.css">
+    
+</head>
+<body>
+    <header id = "header">
+        <nav class = "menu">
+        
+            <ul>
+                <li id="inicio"><a class="icon-casa" href="../index.html">Diseño de Interfaces Web</a></li>
+                <li><a class = "icon-formulario" href="../Formulario/formulario.html">Formulario</a></li>
+                <li><a class = "icon-color" href="../Color/color.html">Color</a></li>
+                <li><a href="../Position/position.html">Position</a></li>
+                <li><a id = "ahora" href="#">Accesibilidad</a>
+                    <ul>
+                        <li><a href="./accesibilidad.html">La WCAG</a></li>
+                        <li><a href="./accesibilidad2.html">Técnicas</a></li>
+                        <li><a href="./accesibilidad3.html">Prioridades, puntos y niveles</a></li>
+                        <li><a href="./accesibilidad4.html">Herramientas</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </nav>
+        <nav class= "menuAparece">
+            <ul>
+                
+                <li id = "primera"><a href="#T">Prioridades</a></li>
+                <li><a href="#T2">Puntos de verificación</a></li>
+                <li><a href="#T3">Niveles de adecuación</a></li>
+   
+                
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class = "imagen">
+        </div>
+        <a name="T"> </a>
+        <div class = "color">
+        
+            <h2>Accesibilidad</h2>
+
+        </div>
+        
+        <div class = "contenedor">
+            <div class= "main">
+            
+                <section>
+                    
+                    <article>
+                        <h1>5.2.4 Prioridades. Puntos de verificación. Niveles de adecuación</h1>
+                        <h2>Prioridades</h2>
+                        <dl>
+                            <dt>Prioridad 1:</dt>
+                            <dd>Requisitos esenciales que se deben cumplir</dd>
+                            <dt>Prioridad 2:</dt>
+                            <dd>Puntos que se deberían cumplir</dd>
+                            <dt>Prioridad 3:</dt>
+                            <dd>Puntos que se podrían cumplir</dd><br>
+                        </dl>
+                        <p>Según se cumplan los niveles de prioridad de establecen varios niveles de conformidad: </p><br>
+                        <table>
+                            <caption>Niveles de conformidad</caption>
+                            <thead>
+                                <tr>
+                                    <th id = "Nivel">Nivel</th>
+                                    <th id = "Explicacion">Explicación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td headers="Nombre nivel">A</td>
+                                    <td headers="Explicacion nivel">Se cumplen los criterios de prioridad 1</td>
+                                </tr>
+                                <tr>
+                                    <td headers="Nombre nivel">AA</td>
+                                    <td headers="Explicacion nivel">Se cumplen los criterios de prioridad 1 y 2</td>
+                                </tr>
+                                <tr>
+                                    <td headers="Nombre nivel">AAA</td>
+                                    <td headers="Explicacion nivel">Se cumplen los criterios de prioridad 1, 2 y 3</td>
+                                </tr>
+                            </tbody>
+                        </table><br>
+                        <a name="T2"> </a>
+                            <p>El nivel AA es requerido para: </p>
+                            <ul>
+                                <li>La administración pública de empresas que ofrezcan servicios públicos o reciban financiación del estado.</li>
+                                <li>Las empresas con más de 100 trabajadores que facturen más de 6 millones de euros.</li>
+                            </ul>
+                            <p>En caso de no cumplirlo puede acarrear multas desde 300 € a 1 millón de euros.</p>
+
+                            <h2>Puntos de verificación</h2>
+                            <p>Estos puntos nos permiten identificar el nivel en el que estamos. Algunos de los puntos son:</p><br>
+                            <ul>
+                                <h4><li>Nivel A:</li></h4>
+                                <ol>
+                                    <li>Ofrecer un equivalente de texto para cada elemento que no sea texto.</li>
+                                    <img src="../Fotos/img.PNG" alt="Imagen del código para ofrecer un equivalente de texto para cada elemento que no sea texto parte 1" title="Código de alternativa a elementos que no sean texto">
+                                    <img src="../Fotos/img2.PNG" alt="Imagen del código para ofrecer un equivalente de texto para cada elemento que no sea texto parte 2" title="Código de alternativa a elementos que no sean texto">
+                                    <li>Añadir información de resumen a las tablas y sus columnas.</li>
+                                    <img src="../Fotos/tabla.PNG" alt="Imagen del código para proporcionar un resumen de tablas"  title="Código de información resumen de tablas">
+                                    <li>Para representaciones multimedia utilizar alternativas sincronizadas.</li>
+                                </ol>
+                                <h4><li>Nivel AA:</li></h4>
+                                <ol>
+                                    <li>Asegurarse de que el contraste de colores es suficiente.</li>
+                                    <li>Indicar claramente listas y sus elementos.</li>
+                                    <li>Indicar con marcas específicas las citas y las palabras textuales (blockquote, q, cite). </li>
+                                    <img src="../Fotos/cite.PNG"><br>
+                                    <cite>Hola que tal</cite>
+                                    <li>No utilizar tablas como sistema de maquetación.</li>
+                                </ol>
+                                <h4><li>Nivel AAA:</li></h4>
+                                <ol>
+                                    <li>Expandir abreviaturas o siglas.</li>
+                                    <img src="../Fotos/abbr.PNG">
+                                    <li>Lenguaje de señas.</li>
+                                    <a name="T3"> </a>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/krRTWfWcEtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <li>Audio de fondo bajo o nulo.</li>    
+                                    <li>No poseer nada que parpadee más de tres veces en un periodo de un segundo (reducir la posibilidad de convulsiones).</li>
+                                </ol> 
+
+                            </ul>
+
+                            <h2>Niveles de adecuación</h2>
+                            <p>Para cumplir con los niveles de adecuación se debe cumplir lo siguiente:</p>
+                            <dl>  
+                                <dt>Nivel de conformidad</dt>
+                                <dd>Alguno de los tres se deben cumplir por completo (A, AA, AAA).</dd>
+                            </dl>
+                            <dl>  
+                                <dt>Páginas completas</dt>
+                                <dd>Se deben aplicar a todas, sin exclusión de ninguna.</dd>
+                            </dl> <dl>  
+                                <dt>Procesos completos</dt>
+                                <dd>Todos los procesos deben cumplir el nivel de conformidad.</dd>
+                            </dl> <dl>  
+                                <dt>Tecnología accesible</dt>
+                                <dd>Si se utiliza alguna tecnología no accesible, debe ofrecerse una alternativa que sí lo sea. </dd>
+                            </dl> <dl>  
+                                <dt>Sin obstáculos</dt>
+                                <dd>Si se ofrece alguna tecnología no accesible, no debe suponer una barrera para acceder a un contenido más accesible.</dd>
+                            </dl>  
+                        
+                    
+                    </article>
+                   
+                    
+                </section>
+                
+                
+                    
+
+                
+            
+            
+            
+            </div>
+            <div class="numeros">
+                <span><a href="accesibilidad.html">1</a></span>
+                <span><a href="accesibilidad2.html">2</a></span>
+                <span id = "actual"><a href="accesibilidad3.html">3</a></span>
+                <span><a href="accesibilidad4.html">4</a></span>
+                <span id = "siguiente"><a href="accesibilidad4.html">Siguiente</a></span>
+            </div>
+   
+    </div>
+    </main> 
+    
+</body>
+<footer>
+    <p>© Octubre 2021.Todos los derechos reservados</p>
+</footer>
+</html>
